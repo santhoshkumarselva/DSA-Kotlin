@@ -10,9 +10,9 @@ class ClimbingStairs {
     }
 
     private fun solveUtil(n: Int, mem: IntArray): Int {
-        if(n<=1) return 1
+        if(n<=1) return n
         if(mem[n] != -1) return mem[n]
-        mem[n] = solveUtil(n - 1, mem) + solveUtil(n - 1, mem)
+        mem[n] = solveUtil(n - 2, mem) + solveUtil(n - 1, mem)
         return mem[n];
     }
 }
