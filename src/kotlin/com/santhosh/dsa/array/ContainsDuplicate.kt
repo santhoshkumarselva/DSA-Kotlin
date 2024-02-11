@@ -1,4 +1,4 @@
-package com.santhosh.dsa
+package com.santhosh.dsa.array
 class ContainsDuplicate {
     fun solve(arr: IntArray) : Boolean {
         var set = HashSet<Int>()

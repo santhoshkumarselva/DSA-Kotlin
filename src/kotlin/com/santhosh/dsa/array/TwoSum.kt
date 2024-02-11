@@ -1,4 +1,4 @@
-package com.santhosh.dsa
+package com.santhosh.dsa.array
 
 class TwoSum {
     fun solve(nums: IntArray, target: Int): IntArray {
